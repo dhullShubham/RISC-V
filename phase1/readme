@@ -1,1 +1,23 @@
-phase 1 data
+phase 1: 
+Created a functional simulator for subset RISC V instructions.
+The simulator is in single cpp file
+
+Team members:
+Shubham Dhull 2017ceb1029
+Deepak Mahto 2017csb1071
+
+Work Division:
+Shubham :  Decode, Execute, Memory access, Final Implementation in main
+Deepak : Fetch, write back, file operations
+
+Testing and Debugging: Shubham
+
+Instructions covered are : 
+R type : add, sub, xor, mul, div, modulo, and
+I type : addi, jalr, ori, lw
+SB type: beq, bne
+U type : auipc, lui
+UJ type: jal
+S type: sw, sb
+
+All other instructions of similar types are mostly similar to the ones implemented.
